@@ -1,16 +1,38 @@
-# simple_calculator
 
-A new Flutter project.
+Flutter Calculator App
+-----------------------
+This is a simple calculator app built using Flutter. 
+The app includes a basic user interface for a calculator, 
+displaying numbers and basic arithmetic operators.
 
-## Getting Started
+#Features
+---------
 
-This project is a starting point for a Flutter application.
+Basic Calculator UI: Provides a user interface with buttons for digits 0-9 and basic arithmetic operators.
 
-A few resources to get you started if this is your first Flutter project:
+Responsive Design: Utilizes Flutter's responsive layout features to ensure the app looks good on various device sizes.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Customizable Theme: Uses the ThemeData class to apply a consistent color scheme across the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Button Design: Features styled buttons with rounded edges, shadow, and color differentiation for operators.
+
+Display Area: Includes a display area at the top to show the current input and results.
+
+Safe Area Compliance: Ensures that the app layout respects device notches and safe areas using the SafeArea widget.
+
+Scalable Architecture: Designed to allow easy addition of functionality, such as actual calculation logic and more complex operations in the future.
+
+Code Overview
+--------------
+Explanation
+main.dart: Contains the main entry point for the application.
+ThemeData: Defines the overall theme of the app.
+HomePage: The main screen of the app with a stateful widget.
+Scaffold: Provides the structure for the app, including the AppBar and body.
+calculatorButton: A helper method to create calculator buttons with uniform styling.
+
+OUTPUT
+----------
+
+![image](https://github.com/tesii/Simple_Calculation/assets/130172829/656cbabc-dcb2-4e8f-9374-edc70bd57950)
+
